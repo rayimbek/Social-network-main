@@ -1,0 +1,37 @@
+.navbar {
+    background: rgb(58, 167, 180);
+    background: linear-gradient(90deg, rgba(58, 167, 180, 1) 0%, rgba(190, 29, 253, 1) 25%, rgba(245, 129, 219, 1) 100%);
+    
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 25;
+}
+
+.postscontain {
+    min-height: 754px;
+}
+
+.list-group {
+    position: absolute;
+    width: inherit;
+}
+
+.searchbar {
+    justify-self: flex-start;
+    /* align-self: center; */
+    margin-top: 10px;
+    width: 400px;
+}
+
+.btn,
+.btn-outline-secondary {
+    border-color: blueviolet;
+    color: blueviolet;
+    background-color: white;
+}
+
+.btn:hover, .btn:active {
+    background-color: #ce72f6;
+    color: blueviolet;
+}

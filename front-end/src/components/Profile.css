@@ -1,0 +1,46 @@
+.profilepage {
+    width: 750px;
+    margin: 0 auto;
+    position: relative;
+}
+@media screen and (max-width: 1000px) {
+    .profilepage{
+        width: 100%;
+    }
+    
+}
+
+.backimage {
+    background: rgb(151, 244, 246);
+    background: radial-gradient(circle, rgba(151, 244, 246, 1) 0%, rgba(238, 174, 202, 1) 83%);
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+    color: black;
+    padding-top: 12%;
+}
+
+.avatar {
+    border-radius: 50%;
+    background: rgb(166, 34, 195);
+    background: linear-gradient(0deg, rgba(166, 34, 195, 1) 0%, rgba(128, 45, 253, 1) 100%);
+    top: 32.5%;
+    margin-left: 12.5%;
+    width: 25%;
+    padding-top: 25%;
+    position: absolute;
+}
+.profilepage .btn{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+}
+.profilepage .col{
+    display: flex;
+justify-content: center;
+}
+.profilepage .row1{
+    margin-top: 10px;
+    margin-left: 70%;
+    width: 100%;
+}

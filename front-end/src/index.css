@@ -1,0 +1,17 @@
+body::-webkit-scrollbar {
+    display: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.loginapi{
+    display: flex;
+    width:80%;
+    margin:10px auto 0;
+    padding:15px;
+    color: darkorchid;
+    justify-content: center;
+}
